@@ -24,7 +24,7 @@ export type Location = {
 }
 
 
-export const ApiData = [
+export const data = [
     {
         "id": 1,
         "name": "Rick Sanchez",
