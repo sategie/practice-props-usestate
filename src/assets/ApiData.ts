@@ -2,7 +2,7 @@
 
 export type ApiData = {
     // Specifying the return type for the fields
-    id: string,
+    id: number,
     name: string,
     status: string,
     species: string,
@@ -27,7 +27,7 @@ export type Location = {
 }
 
 // The data variable will be the key when using props
-export const data = [
+export const data: ApiData[] = [
     {
         "id": 1,
         "name": "Rick Sanchez",
