@@ -1,4 +1,7 @@
+// Step 1: Unpack the API data and specify the return types for the fields
+
 export type ApiData = {
+    // Specifying the return type for the fields
     id: string,
     name: string,
     status: string,

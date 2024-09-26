@@ -1,6 +1,16 @@
+import {ApiData} from "../assets/ApiData.ts";
+
+export type CharacterListProps = {
+    /*
+    * The key 'data' has to be typed
+    * We use ApiData[], because it returns a whole array of the ApiData
+    * */
+    data: ApiData []
+}
+
 
 // Step 4: Add props which will represent the array values from the data array in the TS file
-export default function CharacterList(props) {
+export default function CharacterList(props: Readonly<CharacterListProps>) {
 
 
     return(

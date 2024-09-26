@@ -1,6 +1,16 @@
+import {ApiData} from "../assets/ApiData.ts";
+
+export type CharacterCardProps = {
+   /*
+   * The key 'character' needs to be typed
+   * We use ApiData because returns a single item within the array
+   * */
+   character: ApiData
+}
+
 
 // Step 6: Add props which will represent the single character attribute/value
-export default function CharacterCard(props) {
+export default function CharacterCard(props: Readonly<CharacterCardProps>){
 
 
 
