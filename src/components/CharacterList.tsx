@@ -1,14 +1,14 @@
 
-// Step 4: In CharacterList, pass in the initial value of useState {data} as props
-export default function CharacterList({data}) {
+// Step 4: Add props which will represent the array values from the data array in the TS file
+export default function CharacterList(props) {
 
 
     return(
         <>
-            {/*Step 5: Append the data props to a map method and map each character to a name*/}
+            {/*Step 5: Append props.data to a map method and map each item in the array to a name in order to get just the character names*/}
             <ul>
-                {data.map((character) => (
-                    <li key={character.id}>{character.name}</li>
+                {props.data.map((item) => (
+                    <li key={item.id}>{item.name}</li>
                 ))}
             </ul>
         </>

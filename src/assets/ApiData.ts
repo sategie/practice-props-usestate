@@ -23,7 +23,7 @@ export type Location = {
     url: string
 }
 
-
+// The data variable will be the key when using props
 export const data = [
     {
         "id": 1,

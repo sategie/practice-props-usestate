@@ -17,10 +17,10 @@ function App() {
 
   return (
     <>
-      {/*Step 8: Pass in the key=value field into the {data} props defined in CharacterList*/}
+      {/*Step 8: Pass in the value (using key=value) into the props defined in CharacterList*/}
       <CharacterList data={characters} />
 
-        {/*Step 9: Pass in the key=value field into the {character} props defined in CharacterCard*/}
+        {/*Step 9: Pass in the value (using key=value) into the props defined in CharacterCard*/}
         <CharacterCard character={characters[0]} />
         {/*{characters.length > 0 && <CharacterCard character={characters[0]} />}*/}
     </>
