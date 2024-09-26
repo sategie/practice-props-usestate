@@ -1,3 +1,13 @@
+/*
+* Step 1: Create a new React project with Vite and TypeScript.
+*
+Step 2: Use the data you can retrieve from this API: https://rickandmortyapi.com/api/character/
+Save the data in a separate TypeScript file.
+Import the data in your component and set the data as initial Value in your useState.
+*
+Step 3: Pass the state to components that will visualize this data.
+* */
+
 
 import './App.css'
 import CharacterList from "./components/CharacterList.tsx";
